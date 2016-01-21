@@ -24,7 +24,7 @@ $envs = require("$root/environments/index.php");
 $envNames = array_keys($envs);
 
 echo "Yii Application Initialization Tool v1.0\n\n";
-
+11;
 $envName = null;
 if (empty($params['env']) || $params['env'] === '1') {
     echo "Which environment do you want the application to be initialized in?\n\n";
